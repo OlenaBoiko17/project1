@@ -1,0 +1,48 @@
+.scool {
+    padding-top: 191px;
+
+  }
+
+  .scool-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+
+  .scool-content {
+    /* border: 5px solid #EC1B2E; */
+    margin-right: 150px;
+  }
+
+  /* .scool-content::before {
+    content: '';
+    box-sizing: border-box;
+    border: 10px solid #EC1B2E
+  } */
+
+
+  .scool__title {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 140%;
+letter-spacing: 0.01em;
+color: var(--first-title-text-color);
+
+  }
+
+
+.scool__text {
+  font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: var(--first-title-text-color);
+width: 458px;
+
+}
+

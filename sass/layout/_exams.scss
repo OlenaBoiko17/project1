@@ -1,0 +1,82 @@
+.exams {
+    padding-top: 150px;
+  }
+  
+  .exams__title {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--first-title-text-color);
+  }
+  
+  .exames__list {
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+    // width: calc((100% - 96px) / 4);
+  }
+  
+  .exames__link {
+    width: calc((100% - 96px) / 4);
+  }
+  
+  .exames__caption {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--first-title-text-color);
+  margin-top: 30px;
+  // padding-right: 20px;
+  padding-left: 20px;
+  
+  }
+  
+  .exames__text {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  // text-align: left;
+  color: var(--first-title-text-color);
+  margin-top: 20px;
+  width: 266px;
+  margin-left: 40px;
+  }
+
+  .exames-btn__list {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+  .exames__btn {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--firs-btn-text-color);
+  background-color: var(--accent-color);
+  width: 163px;
+  height: 58px;
+  padding: 15px 20px;
+  
+  
+  }
+
+  .exames__btn:focus,
+  .exames__btn:hover {
+    background: rgb(65, 7, 12);
+}
+  
+ 
+  

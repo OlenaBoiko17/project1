@@ -1,0 +1,87 @@
+.activity {
+    padding-top: 150px;
+  }
+  
+  
+  
+  .activity__title {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--first-title-text-color);
+  
+  }
+  
+  
+  .activity__list {
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+  }
+  
+  .activity__link {
+    width: calc((100% - 72px) / 3);
+  }
+  
+  .activity__caption {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: left;
+  color: var(--first-title-text-color);
+  margin-top: 30px;
+  width: 356px;
+  margin-left: 30px;
+  }
+  
+  .activity__text {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: left;
+  color: var(--first-title-text-color);
+  margin-top: 15px;
+  width: 356px;
+  margin-left: 30px;
+  }
+
+  .activity-btn__list {
+    display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+    margin-top: 30px;
+    gap: 237px;
+  }
+
+  // .activity-btn__link {
+  //   margin-left: 30px;
+  //   width: calc((100% -600px) / 3);
+   
+  // }
+  
+  .activity__btn {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--firs-btn-text-color);
+  background-color: var(--accent-color);
+  width: 163px;
+  height: 58px;
+   padding: 15px 30px;
+  margin-left: 30px;
+  }
+
+  .activity__btn:focus,
+  .activity__btn:hover {
+    background: rgb(65, 7, 12);
+}

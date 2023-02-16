@@ -1,0 +1,173 @@
+.tested {
+    padding-top: 40px;
+    // padding-bottom: 120px;
+}
+
+.tested-box__list {
+    display: flex;
+    gap: 15px;
+}
+
+.tested-text {
+    font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: var(--first-title-text-color);
+
+}
+
+.tested-text__box {
+    font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: var(--first-title-text-color);
+
+}
+
+.tested-text__box::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: var(--accent-color);
+    display: inline-block;
+    margin-right: 15px;
+}
+
+ 
+.tested-connect {
+    margin: 40px 110px 80px;
+  }
+
+
+  
+.tested-wrapper {
+    width: 1076px;
+    margin-left: 110px;
+}  
+
+
+.tested__title {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 140%;
+text-align: center;
+letter-spacing: 0.01em;
+color: var(--first-title-text-color);
+}
+
+
+
+
+
+.inform__list {
+    margin-top: 67px;
+    display: flex;
+    justify-content: center;
+}
+
+
+// .inform__link {
+//     margin-top: 10px;
+// }
+
+
+.inform__text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: var(--first-title-text-color);
+width: 636px;
+margin-top: 10px;
+
+}
+
+.tested__capthion {
+    margin-top: 60px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+color: var(--first-title-text-color);
+margin-left: 220px;
+}
+
+
+.tested__list {
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+
+.tested-text__benefist {
+    font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+color: var(--first-title-text-color);
+margin-top: 10px;
+width: 636px;
+}
+
+
+// .tested-link__benefist::before {
+//     display: block;
+//     content: '';
+//     width: 8px;
+//     height: 8px;
+//     background-color: #EC1B2E;
+//     margin-right: 10px;
+// }
+
+.tested-text__benefist::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: var(--accent-color);
+    margin-right: 10px;
+    display: inline-block;
+
+
+}
+
+.tested-iner {
+    margin-top: 20px;
+}
+
+.inform-text__benefist {
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: var(--first-title-text-color);
+width: 636px;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+.btn-connect {
+    width: 1076px;
+    margin-left: 220px;
+}
+
+.btn__list {
+    display: flex;
+    gap: 24px;
+}
+
+.tested__btn {
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+width: 86px;
+height: 42px;
+background: var(--accent-color);
+
+}
+
+.tested__btn:focus,
+.tested__btn:hover {
+    background: rgb(65, 7, 12);
+}

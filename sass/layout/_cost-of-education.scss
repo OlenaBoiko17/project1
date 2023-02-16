@@ -1,0 +1,99 @@
+.cost-of-education {
+    padding-top: 150px;
+  }
+  
+  .cost-of-education__title {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--first-title-text-color);
+  padding-bottom: 50px;
+  
+  }
+  
+  .may-june {
+    
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 164px;
+    
+  
+  }
+  
+    .cost-of-education__text {
+      
+      font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--firs-btn-text-color);
+    width: 135px;
+    /* margin-top:  64px; */
+    margin-left:  200px;
+    padding: 12px 20px;
+    /* margin-right: 184px; */
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+    
+  
+  
+    }
+  
+  .cost-of-education__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+   
+  
+  }
+  
+  .cost-of-education__caption {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--first-title-text-color);
+    width: 306px;
+  }
+  
+  
+  .cost-of-education__caption:hover,
+  .cost-of-education__caption:focus{
+    color:  var(--accent-color);
+  }
+  
+  
+  .table {
+    margin-top: 100px;
+  }
+  
+  .table__header {
+    display: flex;
+    gap: 96px;
+  }
+  
+  .table__name {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--first-title-text-color);
+  /* flex: none;
+  order: 0;
+  flex-grow: 0; */
+  border: 1px solid;
+  width: 180px;
+  }
+    

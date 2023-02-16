@@ -1,0 +1,134 @@
+.description {
+    padding-top: 40px;
+    padding-bottom: 120px;
+  }
+  
+  .descripthion-holder {
+    width: 1076px;
+  }
+  
+  .description__list {
+    display: flex;
+    gap: 15px;
+  }
+  
+  
+  
+  
+  /* .descripthion-box {
+    position: relative;
+    top: 46px;
+    right: 53px;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: var(--accent-color);
+    
+  } */
+  
+  .description__text {
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  
+  }
+  
+  
+  .description-connect {
+    margin: 40px 110px 80px;
+  }
+  
+  .descripthion-desc {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .descripthion__title {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: var(--first-title-text-color);
+  margin-left: 110px;
+  
+  }
+  
+  .descripthion__subtitle {
+    margin-top: 60px;
+    margin-left: 110px;
+    font-family: 'Circe';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--first-title-text-color);
+  }
+  
+  .descripthion__link {
+    margin-top: 10px;
+    gap: 15px;
+    
+  }
+  
+  .descripthion__text {
+    margin-top: 40px;
+    margin-left: 110px;
+    width: 636px;
+    margin-right: 40px;
+  }
+
+  .description-text__benefist {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--first-title-text-color);
+   
+    
+  }
+
+  .description-text__benefist::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: var(--accent-color);
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  
+  
+  
+  .descripthion__lead {
+    font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--first-title-text-color);
+  margin-top: 65px;
+  width: 546px;
+  border: 5px solid var(--accent-color);
+  padding: 25px 45px;
+  margin-left: 110px;
+  margin-bottom: 55px;
+  
+  }
+  
+  .descripthion-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .descripthion__capthion {
+    margin-top: 60px;
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--first-title-text-color);
+  margin-left: 110px;
+  }
+  
