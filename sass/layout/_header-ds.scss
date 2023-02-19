@@ -1,11 +1,13 @@
-.header {
-    padding-top: 20px;
-    
+.header-ds {
+    padding-top: 120px;
+   padding-left: 80px;
+   width: 1296px;
+   height: 140px;
     
     
 }
 
-.header__connect {
+.header-ds__connect {
 display: flex;
 align-items: center;
 
@@ -14,7 +16,7 @@ align-items: center;
 
 
 
-  .header__title {
+  .header-ds__title {
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
@@ -31,7 +33,7 @@ width: 217px;
 
   }
 
-  .header-contact__list {
+  .header-ds-contact__list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +42,7 @@ width: 217px;
    
   }
 
-  .header__contact {
+  .header-ds__contact {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -50,12 +52,12 @@ width: 217px;
     align-items: center;
   }
 
-  .header__icon {
+  .header-ds__icon {
     fill: var(--accent-color);
     margin-right: 20px;
   }
 
-  .header__btn {
+  .header-ds__btn {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -69,18 +71,18 @@ width: 217px;
     background-color: var(--accent-color);
     min-width: 143px;
     height: 40px;
-   
+    /* margin-left: auto; */
    
     margin:  auto 0 auto 198px;
   }
 
-  .header__btn:focus,
-  .header__btn:hover {
+  .header-ds__btn:focus,
+  .header-ds__btn:hover {
     background: rgb(65, 7, 12);
 }
 
 
-  .header-line {
+  .header-ds-line {
     content: '';
     width: 1296px;
     height: 1px;
@@ -89,26 +91,26 @@ width: 217px;
     opacity: 0.3;
   }
 
-  .header__content {
+  .header-ds__content {
     display: flex;
     align-items: center;
   }
 
   
 
-  .header__nav__list {
+  .header-ds__nav__list {
     display: flex;
     justify-content: center;
     
 
   }
 
-  .header__nav__link {
+  .header-ds__nav__link {
    margin-right: 20px;
    
   }
 
-  .header__nav__item {
+  .header-ds__nav__item {
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
@@ -119,5 +121,6 @@ text-transform: uppercase;
 color: var(--first-title-text-color);
 text-align: center;
 display: flex;
+/* align-items: center; */
 
   }

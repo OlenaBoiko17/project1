@@ -1,7 +1,7 @@
 .hero {
     
     background-color: rgba(47, 48, 58, 0.4);
-    /* padding-top: 20px; */
+   
     background-image: url(../images/fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,35 +15,7 @@
     
   }
 
-// .box {
-  
-//   top: 126px;
-//   left: 140px;
-//   background: rgba(51, 51, 51, 0.5);
-//   width: 586px;
-//   height: 310px;
-//   padding: 15px 30px;
-// }
 
-
-  // .hero__title {
-
-    // width: 526px;
-    // font-family: 'Open Sans';
-    // font-style: normal;
-    // font-weight: 800;
-    // font-size: 40px;
-    // line-height: 140%;
-    // color: var(--firs-btn-text-color);
-  //    padding-top: 141px;
-  //  padding-right: 450px;
-  //   padding-left: 170px;
-  //   background: rgba(51, 51, 51, 0.5);
-  //   width: 586px;
-  //   height: 310px;
-  //   padding: 15px 30px;
-  // background: rgba(51, 51, 51, 0.5);
-  // }
 
 .hero__title {
   position: absolute;
@@ -89,19 +61,12 @@ margin-left: 90px;
     background: rgb(65, 7, 12);
 }
 
-  /* .rigth-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-  } */
   .box-arrow {
     display: flex;
   }
 
   .rigth {
-    /* position: absolute; */
+   
     display: flex;
     align-items: center;
     justify-content: center;

@@ -15,22 +15,13 @@
   
   
   
-  /* .descripthion-box {
-    position: relative;
-    top: 46px;
-    right: 53px;
-    content: '';
-    width: 8px;
-    height: 8px;
-    background-color: var(--accent-color);
-    
-  } */
+
   
   .description__text {
     font-weight: 400;
   font-size: 14px;
   line-height: 140%;
-  color: #333333;
+  color: var(--first-title-text-color);
   
   }
   

@@ -1,7 +1,17 @@
 .tested {
     padding-top: 40px;
-    // padding-bottom: 120px;
+    
 }
+
+
+.tested-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    
+  }
+
 
 .tested-box__list {
     display: flex;
@@ -68,9 +78,6 @@ color: var(--first-title-text-color);
 }
 
 
-// .inform__link {
-//     margin-top: 10px;
-// }
 
 
 .inform__text {
@@ -111,14 +118,7 @@ width: 636px;
 }
 
 
-// .tested-link__benefist::before {
-//     display: block;
-//     content: '';
-//     width: 8px;
-//     height: 8px;
-//     background-color: #EC1B2E;
-//     margin-right: 10px;
-// }
+
 
 .tested-text__benefist::before {
     content: '';

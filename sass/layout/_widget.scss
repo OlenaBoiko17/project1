@@ -1,6 +1,24 @@
+.widget {
+  padding-top: 32px;
+  padding-left: 37px;
+}
 
+  
 
-
+  .widget-iner {
+    display: flex;
+  }
+  
+  
+  .widget-btn__list {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    border: 1px dashed #9747FF;
+    border-radius: 5px;
+    padding: 20px;
+    width: 397px;
+  }
 
 
 
@@ -17,14 +35,17 @@
   width: 163px;
   height: 58px;
   padding: 15px 30px;
-  /* margin-top: 35px; */
+ 
   
   }
+
+
 
 
   .widget__btn:focus,
   .widget__btn:hover {
       background: rgb(65, 7, 12);
+      
   }
 
 
@@ -43,12 +64,15 @@
     background-color: var(--accent-color);
     min-width: 143px;
     height: 40px;
-    /* margin-left: auto; */
    
-    // margin:  auto 0 auto 198px;
   }
 
   .widget-btn__btn:focus,
   .widget-btn__btn:hover {
     background: rgb(65, 7, 12);
 }
+
+
+
+
+
