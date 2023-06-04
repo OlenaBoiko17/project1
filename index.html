@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="container">
             
                 <div class="header__connect">
@@ -72,18 +72,80 @@
                         </ul>
                     </nav>
                 </div>
+                
+            </div>
+           
+            <batton class="menu-open btn" type="batton">
+                <svg class="menu-open__soc" width="40" heigth="40">
+                    <use href="./images/icon.svg#icon-menu_40px"></use>
+                </svg>
+             </batton>
         </div>
-    </header>   
+        <div class="mob-menu is-hidden">
+            <div class="container">
+                <batton class="menu-close" type="batton">
+                    <svg class="menu-close__soc" width="30" heigth="30">
+                        <use href="./images/icon.svg#icon-close-black"></use>
+                    </svg>
+                 </batton>
+                 <nav class="menu__nav">
+                    <ul class="menu__nav__list list">
+                        <li class="menu__nav__link link">
+                            <a href="./index.html" class="menu__nav__item link">О нас</a></li>
+                        <li class="menu__nav__link link">
+                            <a href="./schedule_and_payment.html" class="menu__nav__item link">Расписание и оплата</a></li>
+                        <li class="menu__nav__link link">
+                            <a href="" class="menu__nav__item link">Мероприятия</a></li>
+                        <li class="menu__nav__link link">
+                            <a href="./exams.html" class="menu__nav__item link">Экзамены</a></li>
+                        <li class="menu__nav__link link">
+                            <a href="" class="menu__nav__item link">Обучение в испании</a></li>
+                        <li class="menu__nav__link link">
+                            <a href="" class="menu__nav__item link">Новости</a></li>
+                        <li class="menu__nav__link link">
+                            <a href="" class="menu__nav__item link">Фотогалерея</a></li>
+                        <li class="menu__nav__link link">
+                            <a href="" class="menu__nav__item link">Контакты</a></li>
+                        <li class="menu__nav__link link">
+                            <a href="" class="menu__nav__item link">Отзывы</a></li>
+                            
+                    </ul>
+                </nav>
+                <div class="mob-menu_contact">
+                    <ul class="menu-contact__list list">
+                        <li class="menu-contact__link link">
+                            <a href="https://goo.gl/maps/vYvxeMxNvstTwFof8" class="menu__contact link">
+                                <svg class="menu__icon" width="24" height="24">
+                                    <use href="./images/icon.svg#icon-location"></use>
+                                </svg>
+                                Лиговский пр. 133 Е</a></li>
+                        <li class="menu__contact__link link">
+                            <a href="tel:+79111234567" class="menu__contact link">
+                                <svg class="menu__icon" width="24" height="24">
+                                    <use href="./images/icon.svg#icon-phone"></use>
+                                </svg>
+                                +7 (911) 123-45-67</a></li>
+                        <li class="menu__contact__link link">
+                            <a href="mailto:lavita_school@gmail.com" class="menu__contact link">
+                                <svg class="menu__icon" width="24" height="24">
+                                    <use href="./images/icon.svg#icon-mail"></use>
+                                </svg>
+                                 lavita_school@gmail.com</a></li>
+                       </ul>
+                </div>
+            </div>
+            
+        </div>
+    </header>    -->
     <main>
-        <section class="hero section">
+        <!-- <section class="hero section">
             <div class="container">
                 <div class="hero-box">
                 <div class="box"></div>
                 <h2 class="hero__title">ИДЕТ НАБОР НА ОБУЧЕНИЕ В ШКОЛУ "ЛАВИТА" В НЕВСКОМ РАЙОНЕ ПЕТЕРБУРГА! УСПЕЙ ЗАПИСАТЬСЯ!</h2>
                 <button type="button" class="hero__btn btn">Подробнее</button>
                 </div>
-                <!-- <h2 class="hero__title">ИДЕТ НАБОР НА ОБУЧЕНИЕ В ШКОЛУ "ЛАВИТА" В НЕВСКОМ РАЙОНЕ ПЕТЕРБУРГА! УСПЕЙ ЗАПИСАТЬСЯ!</h2>
-                <button type="button" class="hero__btn btn">Подробнее</button> -->
+             
                 
             </div>
             <div class="box-arrow">
@@ -103,8 +165,8 @@
             </div>
         
                 
-        </section>
-        <section class="scool">
+        </section> -->
+        <!-- <section class="scool">
             <div class="container">
                 <div class="scool-wrapper">
                     <div class="scool-content">
@@ -122,8 +184,8 @@
                 
                
             </div>
-           </section>
-        <section class="cost-of-education">
+           </section> -->
+        <!-- <section class="cost-of-education">
             <div class="container">
                 <h2 class="cost-of-education__title">Курсы и стоимость обучения</h2>
                 
@@ -222,75 +284,121 @@
             </div>
             
 
-        </section>
+        </section> -->
         <section class="exams">
             <div class="container">
                 <h2 class="exams__title">Экзамены</h2>
                 <ul class="exames__list list">
                     <li class="exames__link link">
-                        <img src="./images/img1.jpg" alt="экзамен" width="306">
+                        <picture>
+                            <source 
+                            srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <img src="./images/img1.jpg" alt="экзамен" width="306">
+                        </picture>
+                        
                             <h3 class="exames__caption">Massa fringilla rhoncus purus gravida magnis.</h3>
                                 <p class="exames__text">* Sed viverra in nulla duis elit purus urna.</p>
                                 <p class="exames__text">* Enim volutpat nisi, sit eget sed consectetur consectetur. </p>
                                 <p class="exames__text">* Massa turpis enim, pellentesque amet morbi sagittis. Euismod morbi</p>
-                                
+                                <button type="button" class="exames__btn btn">Подробнее</button>
                     </li>
+                    
                    
                     <li class="exames__link link">
-                        <img src="./images/img2.jpg" alt="экзамен" width="306">
+                        <picture>
+                            <source 
+                            srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <img src="./images/img2.jpg" alt="экзамен" width="306">
+                        </picture>
+                        
                             <h3 class="exames__caption">Erat magna at elementum faucibus tristique lorem. </h3>
                                 <p class="exames__text">* Sed viverra in nulla duis elit purus urna.</p>
                                 <p class="exames__text">* Enim volutpat nisi, sit eget sed consectetur consectetur.</p>
                                 <p class="exames__text">* Massa turpis enim, pellentesque amet morbi sagittis. Euismod morbi</p>
-                               
+                                <button type="button" class="exames__btn btn">Подробнее</button>
                     </li>
                     
+                    
                     <li class="exames__link link">
-                        <img src="./images/img3.jpg" alt="экзамен" width="306">
+                        <picture>
+                            <source 
+                            srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <img src="./images/img3.jpg" alt="экзамен" width="306">
+                        </picture>
+                        
                             <h3 class="exames__caption">Libero at pulvinar sagittis odio et luctus mattis.</h3>
                                 <p class="exames__text">* Sed viverra in nulla duis elit purus urna.</p>
                                 <p class="exames__text">* Enim volutpat nisi, sit eget sed consectetur consectetur.</p>
                                 <p class="exames__text">* Massa turpis enim, pellentesque amet morbi sagittis. Euismod morbi</p>
-                                
+                                <button type="button" class="exames__btn btn">Подробнее</button>
                     </li>
                     
+                    
                     <li class="exames__link link">
-                        <img src="./images/img4.jpg" alt="экзамен" width="306">
+                        <picture>
+                            <source 
+                            srcset="./images/img4.jpg 1x, ./images/img4-2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <img src="./images/img4.jpg" alt="экзамен" width="306">
+                        </picture>
+                       
                             <h3 class="exames__caption">Laoreet ut aliquam rhoncus lectus. Faucibus.</h3>
                                 <p class="exames__text">* Sed viverra in nulla duis elit purus urna.</p>
                                 <p class="exames__text">* Enim volutpat nisi, sit eget sed consectetur consectetur.</p>
                                 <p class="exames__text">* Massa turpis enim, pellentesque amet morbi sagittis. Euismod morbi</p>
-                               
+                                <button type="button" class="exames__btn btn">Подробнее</button>
                     </li>
+                    
                 </ul>
-                <ul class="exames-btn__list list">
+                <!-- <ul class="exames-btn__list list">
                     <li class="exames-btn__link link"><button type="button" class="exames__btn btn">Подробнее</button></li>
                     <li class="exames-btn__link link"><button type="button" class="exames__btn btn">Подробнее</button></li>
                     <li class="exames-btn__link link"><button type="button" class="exames__btn btn">Подробнее</button></li>
                     <li class="exames-btn__link link"><button type="button" class="exames__btn btn">Подробнее</button></li>
-                </ul>
+                </ul> -->
             </div>
         </section>
-        <section class="activity">
+        <!-- <section class="activity">
             <div class="container">
                 <h2 class="activity__title">Мероприятия</h2>
                 <ul class="activity__list list">
                     <li class="activity__link link">
-                        <img src="./images/img5.jpg" alt="мероприятия" width="416">
+                        <picture>
+                            <source 
+                            srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <img src="./images/img5.jpg" alt="мероприятия" width="416">
+                        </picture>
+                        
                             <h3 class="activity__caption">Sed sem vulputate habitant quis eu, vitae quis porttitor augue. </h3>
                                 <p class="activity__text">Elementum, sed viverra volutpat nam lacus egestas. Scelerisque quisque egestas maecenas fermentum semper auctor massa tincidunt. Tristique pulvinar commodo fermentum neque. Elementum tortor.</p>
                                 
                     </li>
                     
                     <li class="activity__link link">
-                        <img src="./images/img6.jpg" alt="мероприятия" width="416">
+                        <picture>
+                            <source 
+                            srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <img src="./images/img6.jpg" alt="мероприятия" width="416">
+                        </picture>
+                        
                             <h3 class="activity__caption">Magna rhoncus facilisi aliquam odio tempus. Non felis cras.</h3>
                                 <p class="activity__text">Tempus libero commodo velit ut aliquam. Sagittis, tristique porttitor platea eu imperdiet interdum cras. Hac blandit sed integer nibh diam in lacus ac. Congue nibh id rhoncus tincidunt imperdiet.</p>
                                 
                     </li>
                     
                     <li class="activity__link link">
-                        <img src="./images/img7.jpg" alt="мероприятия" width="416">
+                        <picture>
+                            <source 
+                            srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <img src="./images/img7.jpg" alt="мероприятия" width="416">
+                        </picture>
+                        
                             <h3 class="activity__caption">Id adipiscing aliquet erat mattis. Cursus metus malesuada congue.</h3>
                                 <p class="activity__text">Dis non mauris placerat in dictum ullamcorper adipiscing morbi dignissim. Commodo dolor ornare nibh sed pretium tellus. Urna, imperdiet id ac venenatis erat mattis risus, molestie. Felis porta.</p>
                                 
@@ -303,8 +411,8 @@
                     <li class="activity-btn__link link"><button type="button" class="activity__btn btn">Подробнее</button></li>
                 </ul>
             </div>
-        </section>
-        <section class="new-scool">
+        </section> -->
+        <!-- <section class="new-scool">
             <div class="container">
                 <h2 class="new-scool__title">Новости школы</h2>
                 <ul class="new-scool__list list">
@@ -343,11 +451,11 @@
                 </ul>
                 </div>
             </div>
-        </section>
+        </section> -->
 
     
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <div class="footer-container">
                 <div class="footer-content">
@@ -508,9 +616,10 @@
             </div>
            
         </div>
-    </footer>
-    
-     
+    </footer> -->
+
+   <!-- <script src="./js/menu.js"></script> -->
+     <script src="./js/menu.js"></script>
     
 </body>
 </html>

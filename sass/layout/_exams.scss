@@ -13,15 +13,58 @@
   color: var(--first-title-text-color);
   }
   
-  .exames__list {
-    display: flex;
+  .exames__list {   
+    @media screen and (min-width:479px) {
+      margin-top: 30px;
+    }
+
+    @include mobile {
+      margin-top: 50px;
+      gap: 24px;
+    };
+
+
+    @include tablet {
+      margin-top: 35px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;  
+    }
+
+   
+
+    @include desktop {
+      display: flex;
     margin-top: 100px;
-    gap: 24px;
+    // gap: 24px;
+    flex-wrap: wrap;
+  justify-content: space-between;
+    
+    }
+    
     
   }
   
   .exames__link {
-    width: calc((100% - 96px) / 4);
+
+    margin-top: 30px;
+
+
+    @include mobile {
+      padding-top: 55px;
+    }
+   
+    @include tablet  {
+      width: calc((100% - 24px) / 2);
+     
+   
+    }
+
+    @include desktop {
+      width: calc(25% - 24px);
+    }
+   
   }
   
   .exames__caption {
@@ -42,35 +85,71 @@
     font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 140%;
   
   color: var(--first-title-text-color);
   margin-top: 20px;
-  width: 266px;
+  width: 320px;
   margin-left: 40px;
+      
+
+    @include mobile {
+      margin-top: 20px;
+    }
+    
+    @include tablet {
+      font-size: 16px;
+      width: 266px;
+     
+    };
+
+    @include desktop {
+      font-size: 16px;
+      width: 266px;
+      
+    }
   }
 
-  .exames-btn__list {
-    margin-top: 45px;
-    display: flex;
-    justify-content: space-around;
-  }
+  // .exames-btn__list {
+  //   margin-top: 45px;
+  //   display: flex;
+  //   justify-content: space-around;
+  // }
 
   
   .exames__btn {
+    margin-top: 45px;
+    // display: inline-flexbox;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 140%;
+  text-align: center;
   color: var(--firs-btn-text-color);
   background-color: var(--accent-color);
   width: 163px;
   height: 58px;
   padding: 15px 20px;
+  margin-left: auto;
+  margin-right: auto;
   
-  
+    @include mobile {
+
+      margin-left: auto;
+      margin-right: auto;
+
+    };
+
+
+    @include desktop {
+      margin-left: 70px;
+    }
+
   }
 
   .exames__btn:focus,
