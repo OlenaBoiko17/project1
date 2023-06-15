@@ -1,5 +1,13 @@
 .activity {
+
+  @media screen and (min-width: 1325px) {
+    display: none;
+  }
+
+  @include desktop {
     padding-top: 150px;
+  }
+    
   }
   
   
@@ -75,6 +83,8 @@
   height: 58px;
    padding: 15px 30px;
   margin-left: 30px;
+  margin-top: 30px;
+  
   }
 
   .activity__btn:focus,
