@@ -1,8 +1,8 @@
 .activity {
 
-  @media screen and (min-width: 1325px) {
+  @media screen and (max-width:1325px) {
     display: none;
-  }
+}
 
   @include desktop {
     padding-top: 150px;
